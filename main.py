@@ -3,7 +3,7 @@ from telebot import types
 import datetime
 import requests
 
-API_TOKEN = '5999635405:AAH3etiW_ZBEBeQVTB4nyRPXue2cld2bLEg'
+API_TOKEN = ''
 crypto_bot = telebot.TeleBot(API_TOKEN)
 #chat_id=-1001826708302
 
