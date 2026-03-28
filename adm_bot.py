@@ -3,9 +3,9 @@ import datetime
 #from main import add_user
 #from main import del_user
 #chat_id=-1001826708302
-API_TOKEN = '5999635405:AAH3etiW_ZBEBeQVTB4nyRPXue2cld2bLEg'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
-op_id_list = [638772675, 1239902124]
+op_id_list = []
 
 def get_unitime():
     year = int(datetime.datetime.utcnow().strftime('%Y'))
